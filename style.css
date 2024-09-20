@@ -9,6 +9,11 @@
 
 
 /* basic elements */
+
+/* * {
+	border: 1px solid yellow;
+} */
+
 html {
 	margin: 0;
 	padding: 0;
@@ -17,25 +22,26 @@ html {
 
 body { 
 	font-size: 1em;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: "Work Sans", sans-serif;
 	line-height: 1.88889;
 	color: #000000; 
 	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;  */
-	background-color: red;
+	background-color: rgb(255, 196, 0);
 	margin: 0; 
 	padding: 0;
 }
 
 p { 
-	margin-top: 0; 
 	text-align: justify;
-	}
+	margin: 0;
+}
+
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
-	}
+}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -71,7 +77,7 @@ abbr {
 header h1 { 
 	/* background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left; */
 	color: black;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	display: block;
 	/* width: 219px;
 	height: 87px; 
@@ -79,7 +85,10 @@ header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	background-color: white;
-	}
+	font-size: 2.5em;
+	text-align: center;
+}
+
 header h2 { 
 	/* background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;  */
 	color: black;
@@ -95,9 +104,9 @@ header h2 {
 	overflow: hidden;
 	}
 header {
-	padding-top: 20px;
-	height: 87px;
-	background-color: green;
+	padding: 1em;
+	background-color: rgb(255, 255, 255);
+
 }
 
 .summary {
@@ -116,19 +125,20 @@ header {
 	padding: 0px 10px 0 10px;
 	}
 .supporting {	
-	padding-left: 10px; 
+	/* padding-left: 10px;  */
 	margin-bottom: 40px;
 	}
 
 footer { 
 	text-align: center; 
-	}
+	background-color: black;
+}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
 
 .sidebar {
-	margin-left: 600px; 
+	/* margin-left: 600px;  */
 	position: absolute; 
 	top: 0; 
 	right: 0;
@@ -205,4 +215,10 @@ footer a:link, footer a:visited {
 
 .requirements {
 	background-color: black;
+	color: white;
+}
+
+.contactInfo {
+	background-color: purple;
+	margin-top: none;
 }
