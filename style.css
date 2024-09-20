@@ -10,15 +10,18 @@
 
 /* basic elements */
 
-/* * {
-	border: 1px solid yellow;
-} */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
 
+/* 
 html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+} */
 
 body { 
 	font-size: 1em;
@@ -92,16 +95,18 @@ header h1 {
 header h2 { 
 	/* background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;  */
 	color: black;
-	margin-top: 58px; 
-	margin-bottom: 40px; 
+	/* margin-top: 58px; 
+	margin-bottom: 40px;  */
 	/* width: 200px; 
 	height: 18px;  */
-	float: right;
-	background-color: blue;
+	/* float: right; */
+	/* background-color: blue; */
+	text-align: center;
+	border-bottom: 2px solid grey;
 	
 	/* text-indent: 100%; */
-	white-space: nowrap;
-	overflow: hidden;
+	/* white-space: nowrap;
+	overflow: hidden; */
 	}
 header {
 	padding: 1em;
@@ -111,13 +116,17 @@ header {
 
 .summary {
 	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
+	/* margin: 20px 20px 20px 10px;  */
+	padding: 15em 2em;
+	/* float: left; */
+	background-color: orange;
+}
+
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
+	font-size: 1.5em;
+	padding: 2%;
 	text-align: center;
+	background-color: white;
 	}
 
 .preamble {
@@ -137,30 +146,28 @@ footer a:link, footer a:visited {
 	margin-right: 20px; 
 	}
 
+
 .sidebar {
-	/* margin-left: 600px;  */
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
+	position: absolute;
+	border: 1px solid red;
+}
+
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	/* background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y;  */
+	display: flex;
+	font-size: 1em;
 	background-color: white;
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
+	padding: 1em;
+}
+
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
-	height: 16px; 
-
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	}
+}
+
 .sidebar h3.archives { 
 	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
@@ -170,7 +177,8 @@ footer a:link, footer a:visited {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	}
+}
+
 .sidebar h3.resources { 
 	background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
@@ -180,12 +188,13 @@ footer a:link, footer a:visited {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	}
+}
 
 
 .sidebar ul {
 	margin: 0;
 	padding: 0;
+	background-color: red;
 	}
 .sidebar li {
 	line-height: 1.3em; 
