@@ -70,22 +70,22 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	/* background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left;  */
-	/* padding: 1em; */
 	margin: 0; 
 	position: relative;
-	}
+}
 
 .intro { 
 	min-width: 470px;
 	width: 100%;
-	}
+}
+
+.banner {
+	text-align: center;
+}
 
 header h1 { 
 	color: rgb(255, 255, 255);
-	display: block;
-	white-space: nowrap;
-	overflow: hidden;
+	display: inline;
 	background-color: rgb(0, 0, 0);
 	font-size: 2.5em;
 	text-align: center;
