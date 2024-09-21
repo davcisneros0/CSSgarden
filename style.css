@@ -155,7 +155,14 @@ header {
 }
 
 .explanation, .participation, .benefits, .requirements {
-	background-color: blue;
+	/* background-color: blue; */
+	margin: 1%;
+	padding: 20px;
+}
+
+
+.participation, .requirements {
+	/* background-color: red; */
 	margin: 1%;
 	padding: 20px;
 }
@@ -173,23 +180,23 @@ footer {
 
 .sidebar {
 	position: absolute;
+	width: 100%;
 }
 
 .sidebar .wrapper { 
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center; 
+	gap: 2%;
 	font-size: 1em;
-	background-color: rgb(208, 0, 255);
+	background-color: #000000;
 	padding: 1em;
 }
 
 .sidebar h3.select { 
-	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
+	text-align: center;
+	color: white;
 }
 
 .sidebar h3.archives { 
@@ -218,7 +225,6 @@ footer {
 .sidebar ul {
 	margin: 0;
 	padding: 0;
-	background-color: red;
 }
 .sidebar li {
 	line-height: 1.3em; 
