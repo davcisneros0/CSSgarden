@@ -34,7 +34,7 @@ p {
 
 h3 {  
 	letter-spacing: 2px; 
-	color: #000000;
+	/* color: #000000; */
 }
 
 /* h3:before {
@@ -139,7 +139,7 @@ header {
 
 .preamble h3 {
 	display: inline-block;
-	background-color: #f9a200;
+	border-bottom: 2px solid #f9a200;
 	padding: 0.5em 0 0.5em 0;
 	margin-bottom: 1em;
 }
@@ -148,29 +148,25 @@ header {
 	letter-spacing: 1px;
 }
 
-.supporting {	
-	/* padding-left: 10px;  */
-	margin-bottom: 40px;
-	}
+.main.supporting:not(footer) {
+	background-color: #bb5602;
+	display: flex;
+	color: white;
+}
 
 footer { 
-	text-align: center; 
-	background-color: black;
+	display: none;
 }
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
-
 
 .sidebar {
 	position: absolute;
-	border: 1px solid red;
 }
 
 .sidebar .wrapper { 
 	display: flex;
+	flex-wrap: wrap;
 	font-size: 1em;
-	background-color: white;
+	background-color: rgb(208, 0, 255);
 	padding: 1em;
 }
 
@@ -210,7 +206,7 @@ footer a:link, footer a:visited {
 	margin: 0;
 	padding: 0;
 	background-color: red;
-	}
+}
 .sidebar li {
 	line-height: 1.3em; 
 	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
@@ -227,27 +223,7 @@ footer a:link, footer a:visited {
 	}
 
 
-.extra1 {
-	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	display: none;
-	}
-
-.requirements {
-	background-color: black;
-	color: white;
-}
-
 .contactInfo {
 	background-color: purple;
 	margin-top: none;
-}
-
-.main.supporting {
-	background-color: red;
-	display: flex;
 }
