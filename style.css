@@ -155,7 +155,6 @@ header {
 }
 
 .explanation, .participation, .benefits, .requirements {
-	/* background-color: blue; */
 	margin: 1%;
 	padding: 20px;
 }
@@ -188,39 +187,16 @@ footer {
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center; 
-	gap: 2%;
+	gap: 5%;
 	font-size: 1em;
 	background-color: #000000;
 	padding: 1em;
 }
 
-.sidebar h3.select { 
+.sidebar h3.select, .sidebar h3.archives, .sidebar h3.resources { 
 	text-align: center;
 	color: white;
 }
-
-.sidebar h3.archives { 
-	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.sidebar h3.resources { 
-	background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
 
 .sidebar ul {
 	margin: 0;
@@ -228,21 +204,26 @@ footer {
 }
 .sidebar li {
 	line-height: 1.3em; 
-	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
+	color: white;
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
 	list-style-type: none;
-	}
+}
+
 .sidebar li a:link {
-	color: #988F5E;
-	}
+	color: #f9a200;
+}
+
 .sidebar li a:visited {
-	color: #B3AE94;
-	}
+	color: #f9a200;
+}
 
-
+.sidebar li a:hover {
+	color: #7c3800;
+}
+/* 
 .contactInfo {
 	background-color: purple;
 	margin-top: none;
-}
+} */
