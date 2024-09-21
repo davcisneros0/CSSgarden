@@ -21,8 +21,6 @@ body {
 	font-family: "Work Sans", sans-serif;
 	line-height: 1.88889;
 	color: #000000; 
-	/* background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;  */
-	/* background-color: rgb(255, 196, 0); */
 	margin: 0; 
 	padding: 0;
 }
@@ -34,7 +32,6 @@ p {
 
 h3 {  
 	letter-spacing: 2px; 
-	/* color: #000000; */
 }
 
 /* h3:before {
@@ -75,7 +72,7 @@ abbr {
 /* specific divs */
 .page-wrapper { 
 	margin: 0; 
-	position: relative;
+	/* position: relative; */
 }
 
 .intro { 
@@ -149,9 +146,25 @@ header {
 }
 
 .main.supporting:not(footer) {
-	background-color: #bb5602;
+	background-color: #191919;
 	display: flex;
+	flex-wrap: wrap;
 	color: white;
+	align-items: center;
+	gap: 1em;
+}
+
+.explanation, .participation, .benefits, .requirements {
+	background-color: blue;
+	margin: 1%;
+	padding: 20px;
+}
+
+.main.supporting h3 {
+	display: inline-block;
+	border-bottom: 2px solid #f9a200;
+	padding: 0.5em 0 0.5em 0;
+	margin-bottom: 1em;
 }
 
 footer { 
