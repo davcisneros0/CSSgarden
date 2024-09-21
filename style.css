@@ -56,12 +56,12 @@ a:link {
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: #bb5602;
 }
 
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: #7c3800;
 }
 
 abbr {
@@ -124,7 +124,7 @@ header {
 
 .preamble {
 	padding: 9%;
-	background-color: #ffffff;
+	background-color: #fffcea;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
