@@ -79,7 +79,7 @@ abbr {
 
 header h1 { 
 	/* background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left; */
-	color: black;
+	color: rgb(255, 255, 255);
 	/* margin-top: 10px; */
 	display: block;
 	/* width: 219px;
@@ -87,9 +87,10 @@ header h1 {
 	text-indent: 100%;*/
 	white-space: nowrap;
 	overflow: hidden;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 	font-size: 2.5em;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 header h2 { 
@@ -116,24 +117,28 @@ header {
 
 .summary {
 	clear: both; 
-	/* margin: 20px 20px 20px 10px;  */
 	padding: 2em 15em 15em 15em;
-	/* float: left; */
-	background-color: orange;
+	background-color: #f9a200;
 }
 
 .summary p {
 	font-size: 3em;
 	padding: 2%;
 	text-align: center;
-	/* background-color: white; */
 	color: black;
 	font-weight: bold;
-	}
+}
 
+.summary a {
+	color: #481b00;
+}
+
+.animate__animated.animate__fadeInUpBig {
+	--animate-duration: 1.5s;
+}
 .preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
+	padding: 3%;
+	background-color: #c9c9c9;
 	}
 .supporting {	
 	/* padding-left: 10px;  */
@@ -232,4 +237,9 @@ footer a:link, footer a:visited {
 .contactInfo {
 	background-color: purple;
 	margin-top: none;
+}
+
+.main.supporting {
+	background-color: red;
+	display: flex;
 }
