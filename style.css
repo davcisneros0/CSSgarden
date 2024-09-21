@@ -16,13 +16,6 @@
 	box-sizing: border-box;
 } 
 
-/* 
-html {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
-
 body { 
 	font-size: 1em;
 	font-family: "Work Sans", sans-serif;
@@ -39,12 +32,23 @@ p {
 	margin: 0;
 }
 
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
+h3 {  
+	letter-spacing: 2px; 
+	color: #000000;
 }
+
+/* h3:before {
+	content: "";
+	z-index: -1;
+	left: -0.5em;
+	top: 0.1em;
+	border-width: 0.5em;
+	border-style: solid;
+	border-color: red;
+	position: absolute; 
+	width: calc(100% - 0.5em);
+	border-left-color: transparent;
+} */
 
 a:link { 
 	font-weight: bold; 
@@ -107,11 +111,11 @@ header {
 	clear: both; 
 	padding: 3em 15em 15em 15em;
 	background-color: #f9a200;
+	padding: 10%;
 }
 
 .summary p {
 	font-size: 3em;
-	padding: 2%;
 	text-align: center;
 	color: black;
 	font-weight: bold;
@@ -122,19 +126,26 @@ header {
 }
 
 .preamble {
-	padding: 3%;
+	padding: 9%;
 	background-color: #ffffff;
-	width: 100vh;
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
+	font-size: 1.2em;
 }
 
 .preamble h3 {
-	display: inline;
+	display: inline-block;
 	background-color: #f9a200;
 	padding: 0.5em 0 0.5em 0;
+	margin-bottom: 1em;
+}
+
+.preamble p {
+	letter-spacing: 1px;
 }
 
 .supporting {	
