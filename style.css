@@ -34,19 +34,6 @@ h3 {
 	letter-spacing: 2px; 
 }
 
-/* h3:before {
-	content: "";
-	z-index: -1;
-	left: -0.5em;
-	top: 0.1em;
-	border-width: 0.5em;
-	border-style: solid;
-	border-color: red;
-	position: absolute; 
-	width: calc(100% - 0.5em);
-	border-left-color: transparent;
-} */
-
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
@@ -72,7 +59,6 @@ abbr {
 /* specific divs */
 .page-wrapper { 
 	margin: 0; 
-	/* position: relative; */
 }
 
 .intro { 
@@ -105,7 +91,6 @@ header {
 }
 
 .summary {
-	clear: both; 
 	padding: 3em 15em 15em 15em;
 	background-color: #f9a200;
 	padding: 10%;
@@ -157,15 +142,9 @@ header {
 
 .explanation, .participation, .benefits, .requirements {
 	margin: 1%;
-	padding: 20px;
+	padding: 1% 8% 1% 8%;
 }
 
-
-.participation, .requirements {
-	/* background-color: red; */
-	margin: 1%;
-	padding: 20px;
-}
 
 .main.supporting h3 {
 	display: inline-block;
@@ -229,6 +208,17 @@ footer {
 @media (max-width: 55em) {
 
 	.summary {
-		font-size: 0.8em;
+		font-size: 0.75em;
+	}
+}
+
+@media (max-width: 40em) {
+
+	.summary {
+		font-size: 0.73em;
+	} 
+
+	.sidebar .wrapper div {
+		margin: 1.2em;
 	}
 }
