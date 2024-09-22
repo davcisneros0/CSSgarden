@@ -116,6 +116,7 @@ header {
 	text-align: center;
 	color: black;
 	font-weight: bold;
+	margin: 0.2em;
 }
 
 .animate__animated.animate__fadeInUpBig {
@@ -190,6 +191,7 @@ footer {
 	gap: 5%;
 	font-size: 1em;
 	background-color: #000000;
+	border-top: 1px solid rgb(84, 84, 84);
 	padding: 1em;
 }
 
@@ -222,8 +224,11 @@ footer {
 .sidebar li a:hover {
 	color: #7c3800;
 }
-/* 
-.contactInfo {
-	background-color: purple;
-	margin-top: none;
-} */
+
+
+@media (max-width: 55em) {
+	
+	.summary {
+		font-size: 0.8em;
+	}
+}
